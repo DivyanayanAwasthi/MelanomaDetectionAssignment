@@ -18,16 +18,17 @@ The data set contains the following diseases:
 
 <img width="349" alt="image" src="https://github.com/DivyanayanAwasthi/MelanomaDetectionAssignment/assets/46371818/f3e8fd3a-6e81-4be1-8808-5d683a15cc8e">
 
-<img width="860" alt="image" src="https://github.com/DivyanayanAwasthi/MelanomaDetectionAssignment/assets/46371818/4e8ae123-b50c-45a3-946c-f85ce8a86054">
-<img width="861" alt="image" src="https://github.com/DivyanayanAwasthi/MelanomaDetectionAssignment/assets/46371818/3aaf31da-580f-411c-829d-a2d42640c558">
-<img width="853" alt="image" src="https://github.com/DivyanayanAwasthi/MelanomaDetectionAssignment/assets/46371818/aa403a47-a1a6-4d3e-b92e-159e71aa2a28">
-
 
 To overcome the issue of class imbalance, used a python package  Augmentor (https://augmentor.readthedocs.io/en/master/) to add more samples across all classes so that none of the classes have very few samples.
 
 ### Sample image from Dataset
 
-![sample image](https://github.com/kshitij-raj/Melanoma-Skin-Cancer-Detection/blob/b43daf05e84626d3796321e79caeb2f6f8179346/Readme_images/Samleimagefromdataset.png)
+<img width="860" alt="image" src="https://github.com/DivyanayanAwasthi/MelanomaDetectionAssignment/assets/46371818/4e8ae123-b50c-45a3-946c-f85ce8a86054">
+<img width="861" alt="image" src="https://github.com/DivyanayanAwasthi/MelanomaDetectionAssignment/assets/46371818/3aaf31da-580f-411c-829d-a2d42640c558">
+<img width="853" alt="image" src="https://github.com/DivyanayanAwasthi/MelanomaDetectionAssignment/assets/46371818/aa403a47-a1a6-4d3e-b92e-159e71aa2a28">
+
+
+
 
 ## CNN Architecture Design
 To classify skin cancer using skin lesions images. To achieve higher accuracy and results on the classification task, I have built custom CNN model.
@@ -42,7 +43,9 @@ To classify skin cancer using skin lesions images. To achieve higher accuracy an
 - Activation Function(Softmax) - The softmax function is used as the activation function in the output layer of neural network models that predict a multinomial probability distribution. The main advantage of using Softmax is the output probabilities range. The range will 0 to 1, and the sum of all the probabilities will be equal to one.
 
 ### Model Architecture
-![Model Arch](https://github.com/kshitij-raj/Melanoma-Skin-Cancer-Detection/blob/d8b2ca8cc296af14ab9aa7a6def31a7efc86271b/Readme_images/ModelLayer.png)
+<img width="458" alt="image" src="https://github.com/DivyanayanAwasthi/MelanomaDetectionAssignment/assets/46371818/0bb3b924-a7ff-4b62-aaee-6db0f3c67c61">
+<img width="439" alt="image" src="https://github.com/DivyanayanAwasthi/MelanomaDetectionAssignment/assets/46371818/e69813e7-d7be-4f7f-8680-62504f33f704">
+
 
 ### Model Evaluation
 ![ModelEvaluation](https://github.com/kshitij-raj/Melanoma-Skin-Cancer-Detection/blob/7e7a17d3c891bf12be42385979168135775654c4/Readme_images/ModelEvaluation.png)
