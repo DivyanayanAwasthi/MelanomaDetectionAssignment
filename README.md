@@ -16,9 +16,12 @@ The dataset consists of 2357 images of malignant and benign oncological diseases
 
 The data set contains the following diseases:
 
-![datasetdf](https://github.com/kshitij-raj/Melanoma-Skin-Cancer-Detection/blob/f143d178495ec6490ce2ee18c4cbbfb2e1388cea/Readme_images/Datasetdf.png)
+<img width="349" alt="image" src="https://github.com/DivyanayanAwasthi/MelanomaDetectionAssignment/assets/46371818/f3e8fd3a-6e81-4be1-8808-5d683a15cc8e">
 
-![datasetplot](https://github.com/kshitij-raj/Melanoma-Skin-Cancer-Detection/blob/f143d178495ec6490ce2ee18c4cbbfb2e1388cea/Readme_images/DatasetPlot.png)
+<img width="860" alt="image" src="https://github.com/DivyanayanAwasthi/MelanomaDetectionAssignment/assets/46371818/4e8ae123-b50c-45a3-946c-f85ce8a86054">
+<img width="861" alt="image" src="https://github.com/DivyanayanAwasthi/MelanomaDetectionAssignment/assets/46371818/3aaf31da-580f-411c-829d-a2d42640c558">
+<img width="853" alt="image" src="https://github.com/DivyanayanAwasthi/MelanomaDetectionAssignment/assets/46371818/aa403a47-a1a6-4d3e-b92e-159e71aa2a28">
+
 
 To overcome the issue of class imbalance, used a python package  Augmentor (https://augmentor.readthedocs.io/en/master/) to add more samples across all classes so that none of the classes have very few samples.
 
